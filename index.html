@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVCONF 2026 - Assignment</title>
+    <!-- Font Awesome Icons for Socials and Checkmarks -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font (Inter) for Professional Design -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR SECTION -->
+
+    <header class="navbar-container">
+        <nav class="navbar width">
+            <div class="nav-logo">
+                <!-- <a href="#">DEVCONF 2026</a> -->
+                 <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="nav-menu">
+                <a href="#">Speakers</a>
+                <a href="#">Schedule</a>
+                <a href="#">Tracks</a>
+                <a href="#">Venue</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="nav-action">
+                <button class="btn btn-primary">Register Now</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER (HERO) SECTION -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content width">
+            <h1 class="hero-title">Code. <em>Connect</em>. Create</h1>
+            <p class="hero-subtitle">
+                Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. 
+                Three days of cutting-edge talks, hands-on workshops, and meaningful connections.
+            </p>
+            <button class="btn btn-primary btn-large">Register Now</button>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+        
+        <section class="speakers-section width">
+            <h2 class="section-title">Meet the Speakers</h2>
+            <div class="speakers-grid">
+                <!-- Speaker 1 -->
+                <div class="speaker-card">
+                    <div class="speaker-img">
+                        <img src="./assets/andrej.png" alt="Andrej Karpathy">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-label label-ai">AI/ML</span>
+                        <h3>Andrej Karpathy</h3>
+                        <p>Pretraining team, Anthropic</p>
+                    </div>
+                </div>
+                <!-- Speaker 2 -->
+                <div class="speaker-card">
+                    <div class="speaker-img">
+                        <img src="./assets/demis.png" alt="Demis Hassabis">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-label label-cloud">Cloud & DevOps</span>
+                        <h3>Demis Hassabis</h3>
+                        <p>Co-founder and CEO, Google DeepMind</p>
+                    </div>
+                </div>
+                <!-- Speaker 3 -->
+                <div class="speaker-card">
+                    <div class="speaker-img">
+                        <img src="./assets/gary.png" alt="Gary Marcus">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-label label-frontend">Frontend</span>
+                        <h3>Gary Marcus</h3>
+                        <p>Staff Engineer, Vercel</p>
+                    </div>
+                </div>
+                <!-- Speaker 4 -->
+                <div class="speaker-card">
+                    <div class="speaker-img">
+                        <img src="./assets/mustafa.png" alt="Mustafa Suleyman">
+                    </div>
+                    <div class="speaker-info">
+                        <span class="track-label label-security">Security</span>
+                        <h3>Mustafa Suleyman</h3>
+                        <p>CEO of Microsoft AI</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <section class="pricing-section width">
+            <div class="pricing-header">
+                <h2 class="section-title">Secure Your Spot</h2>
+                <p class="section-subtitle">Early-bird pricing ends August 15, 2026.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Standard Plan -->
+                <div class="pricing-card">
+                    <div class="plan-meta">
+                        <span class="plan-name">STANDARD</span>
+                        <h3 class="plan-price">$399</h3>
+                        <span class="price-meta">per person</span>
+                    </div>
+                    <ul class="features-list">
+                        <li> Access to all 3 conference days</li>
+                        <li>48 curated technical talks</li>
+                        <li> 2 workshop sessions</li>
+                        <li> Networking lunch & coffee breaks</li>
+                        <li>Conference swag bag</li>
+                        <li> Digital recordings (30 days)</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Standard</button>
+                </div>
+
+                <!-- Pro Plan (Visually Highlighted) -->
+                <div class="pricing-card card-featured">
+                    <div class="plan-meta">
+                        <span class="plan-name">PRO</span>
+                        <h3 class="plan-price">$749</h3>
+                        <span class="price-meta">per person</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>Everything in Standard</li>
+                        <li> Unlimited workshop access</li>
+                        <li>Speaker meet & greet</li>
+                        <li> VIP networking dinner</li>
+                        <li>Lifetime recording access</li>
+                        <li> 1-on-1 mentorship (30 min)</li>
+                    </ul>
+                    <button class="btn btn-primary">Get Pro</button>
+                </div>
+
+                <!-- Team Plan -->
+                <div class="pricing-card">
+                    <div class="plan-meta">
+                        <span class="plan-name">TEAM</span>
+                        <h3 class="plan-price">$5,999</h3>
+                        <span class="price-meta">up to 10 people</span>
+                    </div>
+                    <ul class="features-list">
+                        <li> Everything in Pro (10 seats)</li>
+                        <li> Dedicated team lounge access</li>
+                        <li>Private workshop booking</li>
+                        <li> Company logo on event page</li>
+                        <li>Recruitment booth (1 day)</li>
+                        <li> Priority customer support</li>
+                    </ul>
+                    <button class="btn btn-outline">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+    
+        <section class="ai-challenge-section width">
+            <div class="ai-header">
+            
+                <h2 class="section-title">What's Happening at DevConf 2026?</h2>
+                <p class="section-subtitle">Explore the immersive tracks, interactive zones, and unique event perks.</p>
+            </div>
+
+            <div class="ai-grid">
+                <!-- Highlight 1 -->
+                <div class="ai-card">
+                    <div class="ai-icon-box">
+                        <i class="fa-solid fa-code-fork"></i>
+                    </div>
+                    <h3>24-Hour AI Hackathon</h3>
+                    <p>Build the future in real-time. Team up with developers to solve problems using modern LLMs and open-source APIs. A $10k prize pool awaits!</p>
+                    <div class="ai-tags">
+                        <span>$10,000 Prize</span>
+                        <span>Live Judging</span>
+                    </div>
+                </div>
+
+                <!-- Highlight 2 -->
+                <div class="ai-card">
+                    <div class="ai-icon-box">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3>Next-Gen Tech Stacks</h3>
+                    <p>Dive deep into modern architectures. From Advanced Kubernetes patterns to Rust-based tooling and WebGPU systems.</p>
+                    <div class="ai-tags">
+                        <span>Rust</span>
+                        <span>AI Native</span>
+                        <span>DevOps</span>
+                    </div>
+                </div>
+
+                <!-- Highlight 3 -->
+                <div class="ai-card">
+                    <div class="ai-icon-box">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <h3>1-on-1 Mentor Session</h3>
+                    <p>Accelerate your career. Get exclusive face-to-face time with engineering leaders, CTOs, and tech founders from top global tech hubs.</p>
+                    <div class="ai-tags">
+                        <span>Mentorship</span>
+                        <span>Networking</span>
+                    </div>
+                </div>
+
+                <!-- Highlight 4 -->
+                <div class="ai-card">
+                    <div class="ai-icon-box">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                    </div>
+                    <h3>After-Hours Mixer</h3>
+                    <p>Unwind and connect after long days of learning. Enjoy live developer trivia, great music, and close peer networking.</p>
+                    <div class="ai-tags">
+                        <span>Dev Trivia</span>
+                        <span>Social Mixer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-container">
+        <div class="footer-content width">
+            <div class="footer-top">
+        
+                 <img src="./assets/footer-logo.png" alt="">
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevConf. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
